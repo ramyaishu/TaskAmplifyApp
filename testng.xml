@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/vanchinathanac/Desktop/TaskAmplifyApp/src/test/java/testcases">
+        <classes>
+            <class name="testcases.LogInTestCase1">
+                <methods>
+                    <include name="verifyLogin"/>
+                </methods>
+            </class>
+            <class name="testcases.TaskTest">
+                <methods>
+                    <include name="taskEntry"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
